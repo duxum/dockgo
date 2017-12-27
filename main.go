@@ -5,7 +5,7 @@ import(
 )
 
 func index(w http.ResponseWrite, r *http.Request){
-	fmt.Fprintf(w, "by dux")
+	fmt.Fprintf(w, "Okay")
 }
 
 func main(){
